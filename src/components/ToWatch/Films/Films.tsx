@@ -1,9 +1,9 @@
 import React from "react";
-import { Film } from "../../../type";
+import { FilmConf } from "../../../type";
 import FilmItem from "./FilmItem";
 
 interface Props {
-  films: Film[];
+  films: FilmConf[];
   changeName: (event: React.ChangeEvent<HTMLInputElement>, id: string) => void;
   removeFilm: (id: string) => void;
 }

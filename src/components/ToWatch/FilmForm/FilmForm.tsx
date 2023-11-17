@@ -13,6 +13,7 @@ const FilmForm: React.FC<Props> = ({ onAddFilm }) => {
 
   const onFormSubmit = (event: React.FormEvent) => {
     event.preventDefault();
+
     const newFilm = {
       id: String(Date.now()),
       filmName: filmName,
